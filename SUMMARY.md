@@ -18,4 +18,6 @@
   * kill
   * watch
   * backtrace  bt
+  * frame  f
+  * quit  q
 
