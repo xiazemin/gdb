@@ -31,8 +31,7 @@ Breakpoint 3, main (argc=2, argv=0x7fff5fbff0a8) at e.c:13
 13              j+=5;
 1: j = 10
 2: j*j = 100
-
 ```
 
-
+也可以使用disable,enable,delete,info命令修改及查看其状态,用法与对断点的一样
 
