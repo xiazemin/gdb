@@ -21,4 +21,5 @@
   * [backtrace  bt](gdb/backtrace-bt.md)
   * [frame  f](gdb/frame-f.md)
   * quit  q
+* [启动GDB开始调试](qi-dong-gdb-kai-shi-diao-shi.md)
 
