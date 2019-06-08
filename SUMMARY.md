@@ -28,4 +28,6 @@
 * [数据和源代码（Data and Source Code）](shu-ju-he-yuandai-ma-ff08-data-and-source-code.md)
 * [开启core, 采集程序崩溃的状态](kai-qi-core-cai-ji-cheng-xu-beng-kui-de-zhuang-tai.md)
 * [examine](examine.md)
+* [多线程多进程调试](duo-xian-cheng-duo-jin-cheng-diao-shi.md)
+  * [gdb调试宏](duo-xian-cheng-duo-jin-cheng-diao-shi/gdbdiao-shi-hong.md)
 
