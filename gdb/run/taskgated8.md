@@ -1,23 +1,11 @@
 在初次使用 gdb 时，可能会遇到这样的错误：
 
 ```
-(gdb) run
-Starting 
-program:
-/usr/
-local
-/bin/
-fabnacci
-Unable to find Mach task port 
-for
- process-id 
-23330
-: (os/kern) failure (
-0x5
-).
- (please check gdb is codesigned - see taskgated(
-8
-))
+(gdb) r
+Starting program: /Users/didi/PhpstormProjects/c/c/gdb/e e
+Unable to find Mach task port for process-id 90315: (os/kern) failure (0x5).
+ (please check gdb is codesigned - see taskgated(8))
+(gdb) q
 ```
 
 这是因为 Darwin 内核在你没有特殊权限的情况下，不允许调试其它进程。调试某个进程，意味着你对这个进程有完全的控制权限，所以为了防止被恶意利用，它是默认禁止的。允许 gdb 控制其它进程最好的方法就是用系统信任的证书对它进行签名。
@@ -74,7 +62,6 @@ gdb: No such file or directory
 /usr/local/bin/gdb
 17:10:08-didi@localhost:~/PhpstormProjects/c/c/gdb$codesign -s gdb_codesign /usr/local/bin/gdb
 17:10:27-didi@localhost:~/PhpstormProjects/c/c/gdb$
-
 ```
 
 
