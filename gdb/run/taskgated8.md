@@ -64,5 +64,5 @@ gdb: No such file or directory
 17:10:27-didi@localhost:~/PhpstormProjects/c/c/gdb$
 ```
 
-
+一定要重启才能生效
 
