@@ -18,7 +18,7 @@
   * file
   * kill
   * watch
-  * backtrace  bt
+  * [backtrace  bt](gdb/backtrace-bt.md)
   * frame  f
   * quit  q
 
