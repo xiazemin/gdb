@@ -41,5 +41,5 @@
 * [https://github.com/iovisor/bcc](https://github.com/iovisor/bcc)
 * [bcc](bcc.md)
 * [强制函数返回](qiang-zhi-han-shu-fan-hui.md)
-* 强制执行函数
+* [强制执行函数](qiang-zhi-zhi-xing-han-shu.md)
 
