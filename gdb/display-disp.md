@@ -35,3 +35,15 @@ Breakpoint 3, main (argc=2, argv=0x7fff5fbff0a8) at e.c:13
 
 也可以使用disable,enable,delete,info命令修改及查看其状态,用法与对断点的一样
 
+```
+(gdb) info display
+Auto-display expressions now in effect:
+Num Enb Expression
+1:   y  j
+2:   y  j*j
+(gdb) 
+
+```
+
+
+
