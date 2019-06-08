@@ -33,4 +33,5 @@
   * [多线程调试](duo-xian-cheng-duo-jin-cheng-diao-shi/duo-xian-cheng-diao-shi.md)
     * [gcc中的-w -W和-Wall选项](duo-xian-cheng-duo-jin-cheng-diao-shi/duo-xian-cheng-diao-shi/gcczhong-7684-w-w-548c-wall-xuan-xiang.md)
     * [set scheduler-locking on](duo-xian-cheng-duo-jin-cheng-diao-shi/duo-xian-cheng-diao-shi/zhi-rang-dai-diao-shi-de-xian-cheng-8dd1-qi-ta-xian-cheng-zu-sai.md)
+  * [gdb 多进程调试](duo-xian-cheng-duo-jin-cheng-diao-shi/gdb-duo-jin-cheng-diao-shi.md)
 
