@@ -8,5 +8,6 @@
   * [info](gdb/info.md)
   * [run](gdb/run.md)
   * [display  disp](gdb/display-disp.md)
-  * step  s
+  * [step  s](gdb/step-s.md)
+  * next  n
 
