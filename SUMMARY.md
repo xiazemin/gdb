@@ -6,4 +6,6 @@
     * [gcc －g](gdb/list/gcc-g.md)
   * [break](gdb/break.md)
   * [info](gdb/info.md)
+  * [run](gdb/run.md)
+  * display  disp
 
