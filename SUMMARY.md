@@ -13,4 +13,5 @@
   * [print  p](gdb/print-p.md)
   * continue  c
   * [set var name=v](gdb/set-var-namev.md)
+  * start  st
 
