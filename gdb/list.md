@@ -1,3 +1,5 @@
+list命令显示多行源代码,从上次的位置开始显示,默认情况下,一次显示10行,第一次使用时,从代码起始位置显示
+
 \(gdb\) help l
 
 List specified function or line.
@@ -24,8 +26,6 @@ CFLAGS = -g
 
 然后重新make即可。
 
-
-
 $gcc -g fork\_signal.c -o fork\_signal
 
 $gdb fork\_signal
@@ -34,7 +34,7 @@ GNU gdb \(GDB\) 7.12.1
 
 \(gdb\) l runparent
 
-186     
+186
 
 187         int status;
 
@@ -42,7 +42,7 @@ GNU gdb \(GDB\) 7.12.1
 
 189     }
 
-190     
+190
 
 191     void runparent\(struct process \*pool\){
 
@@ -55,6 +55,4 @@ GNU gdb \(GDB\) 7.12.1
 ---Type &lt;return&gt; to continue, or q &lt;return&gt; to quit---return
 
 195             int size = write\(pool\[i\].m\_pipefd\[0\], str, strlen\(str\)\);
-
-
 
