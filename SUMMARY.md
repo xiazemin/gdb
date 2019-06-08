@@ -30,4 +30,5 @@
 * [examine](examine.md)
 * [多线程多进程调试](duo-xian-cheng-duo-jin-cheng-diao-shi.md)
   * [gdb调试宏](duo-xian-cheng-duo-jin-cheng-diao-shi/gdbdiao-shi-hong.md)
+  * [多线程调试](duo-xian-cheng-duo-jin-cheng-diao-shi/duo-xian-cheng-diao-shi.md)
 
