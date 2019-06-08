@@ -8,4 +8,5 @@
   * [info](gdb/info.md)
   * [run](gdb/run.md)
   * [display  disp](gdb/display-disp.md)
+  * step  s
 
