@@ -7,6 +7,13 @@
 (gdb) frame
 #0  debug (str=0x100000fa8 "123456") at e.c:7
 7           printf("debug info :%s\n",str );
+(gdb)
+(gdb) f 0
+#0  debug (str=0x100000fa8 "123456") at e.c:7
+7           printf("debug info :%s\n",str );
+(gdb) f 1
+#1  0x0000000100000f57 in main (argc=1, argv=0x7fff5fbff0b0) at e.c:15
+15              debug("123456");
 (gdb) 
 
 ```
