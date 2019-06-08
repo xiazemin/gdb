@@ -34,6 +34,17 @@ gdb就把pid那个进程加载进来了. 加载的进程会阻塞到当前正在
     0x00007fff98b242b2 in __semwait_signal () from /usr/lib/system/libsystem_kernel.dylib
     (gdb) 
 
+GDB可以同时调试多个程序。
+
+只需要设置follow-fork-mode\(默认值：parent\)和detach-on-fork（默认值：on）即可。
 
 
+
+   设置方法：set follow-fork-mode \[parent\|child\]   set detach-on-fork \[on\|off\]
+
+
+
+   查询正在调试的进程：info inferiors
+
+   切换调试的进程： inferior &lt;infer number&gt;
 
