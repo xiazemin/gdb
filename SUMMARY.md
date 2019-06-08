@@ -40,4 +40,6 @@
   * [在内存和文件系统之间拷贝数据](gao-ji-ji-qiao/zai-nei-cun-he-wen-jian-xi-tong-zhi-jian-kao-bei-shu-ju.md)
 * [https://github.com/iovisor/bcc](https://github.com/iovisor/bcc)
 * [bcc](bcc.md)
+* [强制函数返回](qiang-zhi-han-shu-fan-hui.md)
+* 强制执行函数
 
