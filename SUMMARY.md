@@ -26,4 +26,5 @@
 * [常用命令介绍](chang-yong-ming-ling-jie-shao.md)
 * [调用栈（Call Stack）](diao-yong-zhan-ff08-call-stack.md)
 * [数据和源代码（Data and Source Code）](shu-ju-he-yuandai-ma-ff08-data-and-source-code.md)
+* [开启core, 采集程序崩溃的状态](kai-qi-core-cai-ji-cheng-xu-beng-kui-de-zhuang-tai.md)
 
