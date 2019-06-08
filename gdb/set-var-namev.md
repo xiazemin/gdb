@@ -6,5 +6,10 @@ Cannot access memory at address 0x100001d78
 
 Cannot access memory at address 0x100002108
 
+set var name=value
 
+  
+
+
+在程序运行中动态改变变量的值
 
