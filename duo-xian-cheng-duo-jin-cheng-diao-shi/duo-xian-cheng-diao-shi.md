@@ -97,9 +97,9 @@ Undefined info command: "threadas".  Try "help info".
 (gdb)
 ```
 
- thread 3表示切换到第三个线程, info threads 第一列id 就是 thread 切换的id.
+thread 3表示切换到第三个线程, info threads 第一列id 就是 thread 切换的id.
 
-上面测试线程 就算你切换到 thread 3. 其它线程还是在跑的. 我们用下面命令 只让待调试的线程跑. 其它线程阻塞.
+上面测试线程 就算你切换到 thread 3. 其它线程还是在跑的. 我们用下面命令 只让待调试的线程跑. 其它线程阻塞.
 
 
 
