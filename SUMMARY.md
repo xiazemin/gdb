@@ -19,6 +19,6 @@
   * kill
   * [watch](gdb/watch.md)
   * [backtrace  bt](gdb/backtrace-bt.md)
-  * frame  f
+  * [frame  f](gdb/frame-f.md)
   * quit  q
 
