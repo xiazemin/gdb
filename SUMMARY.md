@@ -14,4 +14,8 @@
   * continue  c
   * [set var name=v](gdb/set-var-namev.md)
   * start  st
+  * file
+  * kill
+  * watch
+  * backtrace  bt
 
