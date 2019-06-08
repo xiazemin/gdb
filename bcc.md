@@ -26,11 +26,11 @@ ulimit -c 显示核心转储文件大小的最大值，这里是零：禁止核�
 
 /proc/…/core\_pattern 仅仅被设为 “core”，表示会在当前目录下生成一个文件名为 “core” 的 核心转储文件。目前这样就行了，但是我要演示如何把它设置为全局位置。
 
-\# ulimit -c unlimited \# mkdir /var/cores \# echo "/var/cores/core.%e.%p" 
+\# ulimit -c unlimited \# mkdir /var/cores \# echo "/var/cores/core.%e.%p"
 
 &gt;
 
- /proc/sys/kernel/core\_pattern
+/proc/sys/kernel/core\_pattern
 
 | 123 | \# ulimit -c unlimited\# mkdir /var/cores\# echo "/var/cores/core.%e.%p" &gt; /proc/sys/kernel/core\_pattern |
 | :--- | :--- |
@@ -49,4 +49,6 @@ ulimit -c 显示核心转储文件大小的最大值，这里是零：禁止核�
 
 
 好多了：我们有了自己的核心转储文件。
+
+[https://blog.csdn.net/wu\_cai\_/article/details/79669842](https://blog.csdn.net/wu_cai_/article/details/79669842)
 
