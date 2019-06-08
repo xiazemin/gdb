@@ -7,6 +7,7 @@
   * [break](gdb/break.md)
   * [info](gdb/info.md)
   * [run](gdb/run.md)
+    * [taskgated\(8\)](gdb/run/taskgated8.md)
   * [display  disp](gdb/display-disp.md)
   * [step  s](gdb/step-s.md)
   * next  n
