@@ -26,3 +26,35 @@ CFLAGS = -g
 
 
 
+$gcc -g fork\_signal.c -o fork\_signal
+
+$gdb fork\_signal
+
+GNU gdb \(GDB\) 7.12.1
+
+\(gdb\) l runparent
+
+186     
+
+187         int status;
+
+188         wait\(&status\);
+
+189     }
+
+190     
+
+191     void runparent\(struct process \*pool\){
+
+192         for\(int i=0;i&lt;pool\_size;i++\){
+
+193             char str \[buffsize\];
+
+194             sprintf\(str," send to child %d \n",pool\[i\].m\_pid\);
+
+---Type &lt;return&gt; to continue, or q &lt;return&gt; to quit---return
+
+195             int size = write\(pool\[i\].m\_pipefd\[0\], str, strlen\(str\)\);
+
+
+
