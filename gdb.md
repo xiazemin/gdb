@@ -3,7 +3,7 @@ GDB调试
 GDB yourpram  
 或者  
 先输入GDB  
-然后输入 file yourpram
+然后输入 file yourpram
 
 然后使用run或者r命令开始程序的执行,也可以使用 run parameter将参数传递给该程序
 
@@ -29,6 +29,5 @@ GDB yourpram
 | frame | f | 查看栈帧 |
 | quit | q | 退出GDB环境 |
 
-  
 
 

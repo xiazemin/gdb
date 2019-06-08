@@ -10,4 +10,5 @@
   * [display  disp](gdb/display-disp.md)
   * [step  s](gdb/step-s.md)
   * next  n
+  * [print  p](gdb/print-p.md)
 
