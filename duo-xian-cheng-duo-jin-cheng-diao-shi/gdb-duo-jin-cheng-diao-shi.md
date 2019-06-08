@@ -38,13 +38,33 @@ GDB可以同时调试多个程序。
 
 只需要设置follow-fork-mode\(默认值：parent\)和detach-on-fork（默认值：on）即可。
 
+设置方法：set follow-fork-mode \[parent\|child\]   set detach-on-fork \[on\|off\]
+
+查询正在调试的进程：info inferiors
+
+切换调试的进程： inferior &lt;infer number&gt;
+
+具体的意思有
+
+set follow-fork-mode \[parent\|child\]   set detach-on-fork \[on\|off\]
+
+ parent                   on               只调试主进程（gdb默认）  
+ child                      on               只调试子进程  
+ parent                   off              同时调试两个进程，gdb跟主进程，子进程block在fork位置  
+ child                      off              同时调试两个进程，gdb跟子进程，主进程block在fork位置
+
+更加详细的 gdb 多进程调试demo 可以参照 [http://blog.csdn.net/pbymw8iwm/article/details/7876797](http://blog.csdn.net/pbymw8iwm/article/details/7876797)
+
+使用方式和线程调试思路是一样的. 就是gdb 的命令换了字符. 工作中多进程调试遇到少. 
+
+遇到了很少用gdb调试. 会用下面2种调试好办法
+
+```
+(gdb) info inferiors
+  Num  Description       Executable        
+* 1    process 83713     /Users/didi/PhpstormProjects/c/c/gdb/mp.xiazemin 
+(gdb) 
+```
 
 
-   设置方法：set follow-fork-mode \[parent\|child\]   set detach-on-fork \[on\|off\]
-
-
-
-   查询正在调试的进程：info inferiors
-
-   切换调试的进程： inferior &lt;infer number&gt;
 
