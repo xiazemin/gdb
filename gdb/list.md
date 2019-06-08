@@ -1,5 +1,9 @@
 list命令显示多行源代码,从上次的位置开始显示,默认情况下,一次显示10行,第一次使用时,从代码起始位置显示
 
+list n显示已第n行为中心的10行代码
+
+l 8
+
 \(gdb\) help l
 
 List specified function or line.
