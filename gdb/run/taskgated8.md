@@ -48,5 +48,34 @@ for
 
 3. 关闭**证书信息**窗口，系统会再次要求输入系统登录密码
 
+## 对 gdb 签名 {#articleHeader1}
+
+执行下面的命令：
+
+```
+codesign
+-s gdb_codesign gdb
+```
+
+执行上面的命令时，系统会再次验证身份。  
+完成后一定要重启系统，这个很重要，否则签名不会生效。
+
+如果出现下面的错误：
+
+> MacBook:~ sam$ codesign -s gdb\_codesign gdb  
+> gdb: No such file or directory
+
+那么就指定 gdb 的全路径。
+
+```
+$codesign -s gdb_codesign gdb
+gdb: No such file or directory
+17:09:48-didi@localhost:~/PhpstormProjects/c/c/gdb$which gdb
+/usr/local/bin/gdb
+17:10:08-didi@localhost:~/PhpstormProjects/c/c/gdb$codesign -s gdb_codesign /usr/local/bin/gdb
+17:10:27-didi@localhost:~/PhpstormProjects/c/c/gdb$
+
+```
+
 
 
