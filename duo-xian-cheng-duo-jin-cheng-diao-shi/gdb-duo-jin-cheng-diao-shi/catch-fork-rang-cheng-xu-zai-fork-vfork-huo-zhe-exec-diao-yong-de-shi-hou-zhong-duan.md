@@ -117,9 +117,12 @@ Program received signal SIGINT, Interrupt.
 (gdb) info inferiors
   Num  Description       Executable        
 * 1    process 98195     /Users/didi/PhpstormProjects/c/c/gdb/mp 
-(gdb) 
-
+(gdb)
 ```
+
+detach inferiors  2
+
+重新启动gdb来测试kill inferiors 2
 
 
 
