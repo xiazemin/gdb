@@ -14,8 +14,6 @@ Two arguments with comma between specify starting and ending lines to list.
 
 No symbol table is loaded.  Use the "file" command.
 
-
-
 在unix/linux系统下使用gdb进行调试时，如果出现：
 
 No symbol table is loaded. Use the "file" command.
@@ -25,8 +23,6 @@ No symbol table is loaded. Use the "file" command.
 CFLAGS = -g
 
 然后重新make即可。
-
-
 
 
 
