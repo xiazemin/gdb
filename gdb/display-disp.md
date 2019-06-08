@@ -14,7 +14,25 @@ display命令
 
 1: j = 5
 
-\(gdb\) 
+\(gdb\)
+
+```
+(gdb) display j
+1: j = 5
+(gdb) display j*J
+No symbol "J" in current context.
+(gdb) display j*j
+2: j*j = 25
+(gdb) c
+Continuing.
+now a=10
+
+Breakpoint 3, main (argc=2, argv=0x7fff5fbff0a8) at e.c:13
+13              j+=5;
+1: j = 10
+2: j*j = 100
+
+```
 
 
 
