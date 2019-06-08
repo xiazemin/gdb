@@ -7,5 +7,5 @@
   * [break](gdb/break.md)
   * [info](gdb/info.md)
   * [run](gdb/run.md)
-  * display  disp
+  * [display  disp](gdb/display-disp.md)
 
