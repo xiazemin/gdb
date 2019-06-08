@@ -51,13 +51,52 @@ Num     Type           Disp Enb Address            What
 Continuing.
 end
 [Inferior 1 (process 63067) exited normally]
+(gdb)
+```
+
+**info threads 查看所有运行的线程信息. \*表示当前调试的线程.**
+
+**后面 l \_run 表示查看 \_run附近代码. **当然还有 **l 16** 查看16行附近文件内容.
+
+gdb多线程切换 测试如下
+
+```
+(gdb) b 23
+Breakpoint 1 at 0x100000e89: file mp.cpp, line 23.
+(gdb) r
+Starting program: /Users/didi/PhpstormProjects/c/c/gdb/mp 
+main beign
+n=1, i=0
+n=2, i=0
+n=3, i=0
+[New Thread 0x1513 of process 68108]
+[New Thread 0x1603 of process 68108]
+[New Thread 0x1703 of process 68108]
+[Switching to Thread 0x1513 of process 68108]
+
+Thread 2 hit Breakpoint 1, _run (arg=0x7fff5fbff068) at mp.cpp:23
+23              printf("n=%d, piyo = %d, _old=%d\n", n, piyo, _old);
+(gdb) info threads
+  Id   Target Id         Frame 
+  1    Thread 0x1313 of process 68108 0x0000000100000dde in main () at mp.cpp:49
+* 2    Thread 0x1513 of process 68108 _run (arg=0x7fff5fbff068) at mp.cpp:23
+  3    Thread 0x1603 of process 68108 _run (arg=0x7fff5fbff068) at mp.cpp:23
+  4    Thread 0x1703 of process 68108 _run (arg=0x7fff5fbff068) at mp.cpp:23
+(gdb) thread 3
+[Switching to thread 3 (Thread 0x1603 of process 68108)]
+#0  _run (arg=0x7fff5fbff068) at mp.cpp:23
+23              printf("n=%d, piyo = %d, _old=%d\n", n, piyo, _old);
+(gdb) info threadas
+Undefined info command: "threadas".  Try "help info".
+(gdb) info threads
+  Id   Target Id         Frame 
+  1    Thread 0x1313 of process 68108 0x0000000100000dde in main () at mp.cpp:49
+  2    Thread 0x1513 of process 68108 _run (arg=0x7fff5fbff068) at mp.cpp:23
+* 3    Thread 0x1603 of process 68108 _run (arg=0x7fff5fbff068) at mp.cpp:23
+  4    Thread 0x1703 of process 68108 _run (arg=0x7fff5fbff068) at mp.cpp:23
 (gdb) 
 
 ```
 
-**info threads 查看所有运行的线程信息. \*表示当前调试的线程.**
 
-**后面 l \_run 表示查看 \_run附近代码. **当然还有 **l 16** 查看16行附近文件内容.
-
-gdb多线程切换 测试如下
 
