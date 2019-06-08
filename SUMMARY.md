@@ -35,4 +35,5 @@
     * [set scheduler-locking on](duo-xian-cheng-duo-jin-cheng-diao-shi/duo-xian-cheng-diao-shi/zhi-rang-dai-diao-shi-de-xian-cheng-8dd1-qi-ta-xian-cheng-zu-sai.md)
   * [gdb 多进程调试](duo-xian-cheng-duo-jin-cheng-diao-shi/gdb-duo-jin-cheng-diao-shi.md)
     * [show follow-fork-mode](duo-xian-cheng-duo-jin-cheng-diao-shi/gdb-duo-jin-cheng-diao-shi/show-follow-fork-mode.md)
+    * [catch fork  让程序在fork，vfork或者exec调用的时候中断](duo-xian-cheng-duo-jin-cheng-diao-shi/gdb-duo-jin-cheng-diao-shi/catch-fork-rang-cheng-xu-zai-fork-vfork-huo-zhe-exec-diao-yong-de-shi-hou-zhong-duan.md)
 
