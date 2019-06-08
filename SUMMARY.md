@@ -5,4 +5,5 @@
   * [list](gdb/list.md)
     * [gcc －g](gdb/list/gcc-g.md)
   * [break](gdb/break.md)
+  * [info](gdb/info.md)
 
