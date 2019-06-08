@@ -12,7 +12,7 @@
   * [step  s](gdb/step-s.md)
   * next  n
   * [print  p](gdb/print-p.md)
-  * continue  c
+  * [continue  c](gdb/continue-c.md)
   * [set var name=v](gdb/set-var-namev.md)
   * [start  st](gdb/start-st.md)
   * file
