@@ -30,5 +30,5 @@ Unable to find Mach task port for process-id 5506: (os/kern) failure (0x5).
  (please check gdb is codesigned - see taskgated(8))
 ```
 
-系统重启后可以用了。
+系统重启后可以用了。（注意一定要重启系统）
 
