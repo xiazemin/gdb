@@ -6,6 +6,10 @@ l 8
 
 list functionname显示以functionname的函数为中心的10行代码
 
+list - 显示刚才打印过的源代码之前的代码
+
+
+
 \(gdb\) help l
 
 List specified function or line.
