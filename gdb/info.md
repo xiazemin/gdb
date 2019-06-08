@@ -18,8 +18,6 @@ info bookmarks -- Status of user-settable bookmarks
 
 info breakpoints -- Status of specified breakpoints \(all user-settable breakpoints if no argument\)
 
-
-
 \(gdb\) info  0x100001940
 
 Undefined info command: "0x100001940".  Try "help info".
@@ -28,5 +26,10 @@ Undefined info command: "0x100001940".  Try "help info".
 
 Undefined info command: "runparent".  Try "help info".
 
+可使用info查看断点相关的信息
 
+  
+
+
+info breakpoints
 
