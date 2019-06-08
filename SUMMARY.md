@@ -11,4 +11,5 @@
   * [step  s](gdb/step-s.md)
   * next  n
   * [print  p](gdb/print-p.md)
+  * continue  c
 
