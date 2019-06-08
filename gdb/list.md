@@ -4,6 +4,8 @@ list n显示已第n行为中心的10行代码
 
 l 8
 
+list functionname显示以functionname的函数为中心的10行代码
+
 \(gdb\) help l
 
 List specified function or line.
