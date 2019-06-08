@@ -6,5 +6,10 @@ No symbol "i" in current context.
 
 1: kReadEvent = 1
 
+display命令
 
+  
+
+
+查看参数的值
 
