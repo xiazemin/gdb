@@ -48,4 +48,5 @@
   * [info goroutines ](diaoshi-goroutine/info-goroutines.md)
   * [gdb vs dlv](diaoshi-goroutine/gdb-vs-dlv.md)
   * [runtime-gdb.py](diaoshi-goroutine/runtime-gdbpy.md)
+  * [-ldflags “-s -w”](diaoshi-goroutine/-ldflags-s-w.md)
 
