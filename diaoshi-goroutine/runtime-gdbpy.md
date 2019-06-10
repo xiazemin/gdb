@@ -5,8 +5,6 @@ vim ~/.gdbinit 添加下面一行：
 add-auto-load-safe-path $GOROOT/src/pkg/runtime/runtime-gdb.py  
 把$GOROOT替换为你自己的路径
 
-
-
 **常用命令**  
 list  
 简写命令l,用来显示源代码,默认显示十行代码,后面可以带上参数显示的具体行，例如：list 15,显示十行代码,其中第15行在显示的十行里面的中间  
@@ -18,12 +16,12 @@ backtrace
 简写命令bt,用来打印执行的代码过程  
 info  
 info命令用来显示信息,后面有几种参数,我们常用的有如下几种  
-    info locals  
-    显示当前执行的程序中的变量值  
-    info breakpoints  
-    显示当前设置的断点列表  
-    info goroutines  
-    显示当前执行的goroutine列表,带\*的表示当前执行的  
+    info locals  
+    显示当前执行的程序中的变量值  
+    info breakpoints  
+    显示当前设置的断点列表  
+    info goroutines  
+    显示当前执行的goroutine列表,带\*的表示当前执行的  
 print  
 简写命令p,用来打印变量或者其他信息,后面跟上需要打印的变量名,当然还有一些很有用的函数$len\(\)和$cap\(\),用来返回当前string,slices或者maps的长度和容量  
 whatis  
@@ -34,4 +32,6 @@ coutinue
 简称命令c,用来跳出当前断点处,后面可以跟参数N,跳过多少次断点  
 set variable  
 该命令用来改变运行过程中的变量值，格式如：set variable &lt;var&gt;=&lt;value&gt;
+
+[https://nebulas.gitbook.io/wiki/go-nebulas/develop/debuging-with-gdb](https://nebulas.gitbook.io/wiki/go-nebulas/develop/debuging-with-gdb)
 
