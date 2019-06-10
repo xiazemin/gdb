@@ -46,4 +46,5 @@
 * [结合core文件调试](jie-hecore-wen-jian-diao-shi.md)
 * [调试goroutine](diaoshi-goroutine.md)
   * [info goroutines ](diaoshi-goroutine/info-goroutines.md)
+  * [gdb vs dlv](diaoshi-goroutine/gdb-vs-dlv.md)
 
