@@ -45,4 +45,5 @@
 * [查看汇编代码](cha-kan-hui-bian-dai-ma.md)
 * [结合core文件调试](jie-hecore-wen-jian-diao-shi.md)
 * [调试goroutine](diaoshi-goroutine.md)
+  * [info goroutines ](diaoshi-goroutine/info-goroutines.md)
 

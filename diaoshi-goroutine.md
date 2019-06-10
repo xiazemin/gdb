@@ -95,8 +95,7 @@ Starting program: /Users/didi/goLang/src/go_http/go_http
 
 Thread 1 hit Breakpoint 1, main.main () at /Users/didi/goLang/src/go_http/main.go:12
 12              print("hello world")
-(gdb) 
-
+(gdb)
 ```
 
 
