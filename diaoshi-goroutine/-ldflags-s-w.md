@@ -11,3 +11,16 @@
 
 关闭内联优化：go build -gcflags “-N -l”
 
+调试相关函数：
+
+* runtime.Breakpoint\(\)：触发调试器断点。
+* runtime/debug.PrintStack\(\)：显示调试堆栈。
+* log：适合替代 print显示调试信息。
+
+GDB 调试支持：
+
+* 参数载入：gdb -d $GCROOT 。
+* 手工载入：source pkg/runtime/runtime-gdb.py。
+
+更多细节，请参考: http://golang.org/doc/gdb
+
