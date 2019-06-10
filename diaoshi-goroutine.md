@@ -100,7 +100,7 @@ Thread 1 hit Breakpoint 1, main.main () at /Users/didi/goLang/src/go_http/main.g
 (gdb)
 ```
 
-在.gdbinit文件中添加如下配置,没有文件就创建一个,重启gdb生效
+方式一：在.gdbinit文件中添加如下配置,没有文件就创建一个,重启gdb生效
 
 `add-auto-load-safe-path /home/gws/go/gosrc/go/src/runtime/runtime-gdb.py`
 
